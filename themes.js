@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    // Check for saved theme, fallback to system preference
+    
     let savedTheme = null;
 
+    // Try-catch block to handle localStorage safely
     try {
         savedTheme = localStorage.getItem('theme');
     } catch (e) {
@@ -17,11 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('dark-mode');
     }
 
-    // Listen for system theme changes
+    // Listen for system theme changes and adapt (only if no manual theme is saved)
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
         const newSystemTheme = e.matches ? 'dark' : 'light';
 
-        if (!savedTheme) { // Only adapt to system changes if no manual theme is saved
+        // Only adapt to system changes if no manual theme is saved
+        if (!savedTheme) {
             if (newSystemTheme === 'dark') {
                 document.body.classList.add('dark-mode');
             } else {
