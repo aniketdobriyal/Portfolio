@@ -1,18 +1,5 @@
 # My Portfolio Projects
 
-Welcome to my portfolio! This repository showcases some of the projects I've worked on, covering various aspects of web development, mobile development, and more. Feel free to explore each project to see the code, features, and technologies used.
-
-## Table of Contents
-
-- [About Me](#about-me)
-- [Projects](#projects)
-  - [1. Project Name 1](#1-project-name-1)
-  - [2. Project Name 2](#2-project-name-2)
-  - [3. Project Name 3](#3-project-name-3)
-  - [More Projects](#more-projects)
-- [Technologies](#technologies)
-- [Contact](#contact)
-
 ## About Me
 
 I'm a passionate developer with a focus on web and mobile application development. My expertise includes a range of technologies and frameworks, from front-end to back-end. I love building projects that solve real-world problems and enhance user experience.
