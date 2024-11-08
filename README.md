@@ -18,7 +18,7 @@ Here’s a list of some key technologies I’ve worked with across these project
 
 If you'd like to get in touch, feel free to reach out via:
 
-- **Email**: your.email@example.com
+- **Email**: aniketdobriyal325@gmail.com
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/aniket-dobriyal-2d2/)
 - **Portfolio Website**: [website](https://zynthara.in)
 
