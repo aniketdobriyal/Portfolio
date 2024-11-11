@@ -65,6 +65,7 @@ body.dark-mode header {
 /* Main container for all cards */
 .card-container {
     display: flex;
+    justify-content: center;
     overflow-x: auto; /* Enables horizontal scrolling */
     padding: 20px;
     gap: 20px; /* Space between cards */
