@@ -94,7 +94,7 @@ body.dark-mode header {
 }
 
 .hero {
-    background: url('product-portfolio-management.png') no-repeat center center/cover;
+    background: url('im.png') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
