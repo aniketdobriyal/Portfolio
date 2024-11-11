@@ -37,7 +37,7 @@ header {
     top: 0;
     z-index: 1000;
     transition: background 0.3s, color 0.3s ease;
-    height:30px;
+    height:40px;
 }
 
 body.dark-mode header {
