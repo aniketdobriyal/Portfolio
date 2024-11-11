@@ -69,7 +69,6 @@ body.dark-mode header {
     overflow-x: auto;
     padding: 20px;
     gap: 27px;
-    scroll-snap-type: none; /* Disable snapping */
     scroll-behavior: smooth; /* Smooth scrolling */
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
