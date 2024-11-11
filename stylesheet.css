@@ -29,9 +29,10 @@ body.dark-mode {
 
 header {
     background: black;
-    opacity: 0.7;
+   margin: 0px;
+   opacity: 0.7;
     color: #fff;
-    padding: 10px 20px;
+   width: 100vw;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -76,27 +77,79 @@ body.dark-mode header {
     margin-top: 20px;
     margin-left: 15px;
 }
+/* Importing a modern font family for better typography */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Adjust the list styling */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the list items */
 .navbar li {
-    margin-left: 20px;
+    margin-left: 25px;
+    position: relative;
 }
 
+/* Style the links inside navbar */
 .navbar a {
-    color: #bfbaba;
+    color: #f4f4f4;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s, transform 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: color 0.3s, transform 0.3s, padding-left 0.3s;
+    padding-bottom: 5px;
 }
 
+/* Hover effect for the links */
 .navbar a:hover {
-    color: #f8f8f8;
+    color: #fff;
     transform: scale(1.1);
+    padding-left: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+/* Optional: Add a smooth active state */
+.navbar a:active {
+    color: #ffcc00;
+}
+
+/* Optional: Add a subtle underline for each link */
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
 }
 
 .hero {
     background: url('im.png') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
+  
     display: flex;
     align-items: center;
     justify-content: center;
