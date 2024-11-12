@@ -452,6 +452,9 @@ footer a:hover {
         width: 300px; /* Adjust card width for mobile */
         height: 400px; /* Adjust card height for mobile */
     }
+     .card-container {
+        justify-content: flex-start; /* Align cards to the start */
+    }
 
 }
 
