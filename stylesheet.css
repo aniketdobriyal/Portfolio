@@ -449,8 +449,8 @@ footer a:hover {
     }
 
       .creative-card {
-        width: 250px; /* Adjust card width for mobile */
-        height: 450px; /* Adjust card height for mobile */
+        width: 300px; /* Adjust card width for mobile */
+        height: 400px; /* Adjust card height for mobile */
     }
 
 }
