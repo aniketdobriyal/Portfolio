@@ -69,7 +69,7 @@ body.dark-mode header {
     overflow-x: auto;
     padding: 20px;
     gap: 27px;
-    scroll-behavior: smooth; /* Smooth scrolling */
+ 
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
@@ -82,7 +82,6 @@ body.dark-mode header {
     height: 400px; /* Fixed height */
     border-radius: 15px;
     overflow: hidden;
-    padding:15px;
     transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -138,6 +137,16 @@ body.dark-mode header {
 
 /* Content styling inside the card */
 /* Content styling inside the card */
+.creative-card-content {
+   z-index: 2;
+   color: #333;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   text-wrap:stable;
+   text-align: center;
+  
+}
 
 
 /* Card title styling */
@@ -444,9 +453,6 @@ footer a:hover {
         height: 350px; /* Adjust card height for mobile */
     }
 
-    .card-container {
-        padding: 10px; /* Reduce padding on mobile */
-    }
 }
 
 @media (max-width: 640px) {
