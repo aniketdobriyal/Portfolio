@@ -288,6 +288,7 @@ body.dark-mode header {
     opacity: 0;
     transform: translateY(30px);
     animation: slideIn 1s forwards;
+    padding-top: 60px;
 }
 
 .about-section {
