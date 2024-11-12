@@ -248,7 +248,7 @@ body.dark-mode header {
     background: url('im.png') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
-  
+      background-attachment: fixed; /* Optionally, this keeps the image in place while scrolling */
     display: flex;
     align-items: center;
     justify-content: center;
