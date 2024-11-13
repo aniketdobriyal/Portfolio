@@ -68,8 +68,8 @@ body.dark-mode header {
     justify-content: center;
     overflow-x: auto;
     padding: 20px;
-    gap: 27px;
- 
+    gap: 47px;
+    width:70%;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 }
