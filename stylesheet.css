@@ -69,9 +69,20 @@ body.dark-mode header {
     overflow-x: auto;
     padding: 20px;
     gap: 47px;
-    width:70%;
+   
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
 }
 
 
