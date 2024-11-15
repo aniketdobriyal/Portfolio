@@ -536,7 +536,7 @@ opacity: 1;
 
     .hero {
         height: 40vh;
-         
+        background-attachment:scroll; 
     }
 
       .creative-card {
