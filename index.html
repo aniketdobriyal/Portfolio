@@ -43,7 +43,30 @@
             <h2>About Me</h2>
             <p>I am a web developer and designer specializing in creating tailored solutions that drive business growth. With a focus on network business consultancy and engaging digital experiences, I leverage my skills to deliver exceptional results. Let’s work together to elevate your business with innovative strategies and state-of-the-art technology.</p>
  <div class ="s-kill">       
+<div class="prism">
+  <div class="front"></div>
+  <div class="back"></div>
+  <div class="right"></div>
+  <div class="left"></div>
+  <div class="top"></div>
+  <div class="bottom"></div>
+</div>
 
+<!-- GSAP Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+  // Select the prism
+  const prism = document.querySelector('.prism');
+
+  // Animate the prism using GSAP
+  gsap.to(prism, {
+    rotationX: 360, // Full rotation on the X-axis
+    rotationY: 360, // Full rotation on the Y-axis
+    duration: 5,    // Duration of the animation
+    ease: "power1.inOut", // Smooth easing
+    repeat: -1,     // Infinite loop
+  });
+</script> 
 <div >
     <img src="https://raw.githubusercontent.com/aniketdobriyal/aniketdobriyal/refs/heads/main/assets/coding.gif" alt="">
 </div> 
