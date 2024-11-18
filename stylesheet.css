@@ -247,8 +247,10 @@ body.dark-mode header {
 
 .hero {
     background: url('ite-of-the-product-designer-and-front-end-developer-Adham-Dannaway - Copy.svg') no-repeat center center/cover;
+        background: url('ite-of-the-product-designer-and-front-end-developer-Adham-Dannaway - Copy.svg') no-repeat center center/cover;
+
     color: #fff;
-    height: 100vh;
+    height: 110vh;
     background-attachment: fixed; /* Optionally, this keeps the image in place while scrolling */
     display: flex;
     align-items: center;
