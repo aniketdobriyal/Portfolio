@@ -246,7 +246,8 @@ body.dark-mode header {
 }
 
 .hero {
-    background: url('ite-of-the-product-designer-and-front-end-developer-Adham-Dannaway - Copy.svg') no-repeat center center/cover;
+     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+
         background: url('ite-of-the-product-designer-and-front-end-developer-Adham-Dannaway - Copy.svg') no-repeat center center/cover;
 
     color: #fff;
@@ -538,6 +539,8 @@ opacity: 1;
 
     .hero {
         height: 40vh;
+            clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+
         background-attachment:scroll; 
     }
 
