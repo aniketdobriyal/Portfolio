@@ -246,10 +246,7 @@ body.dark-mode header {
 }
 
 .hero {
-     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
-
-        background: url('ite-of-the-product-designer-and-front-end-developer-Adham-Dannaway - Copy.svg') no-repeat center center/cover;
-
+     background: url('ite-of-the-product-designer-and-front-end-developer-Adham-Dannaway - Copy.svg') no-repeat center center/cover;
     color: #fff;
     height: 110vh;
     background-attachment: fixed; /* Optionally, this keeps the image in place while scrolling */
